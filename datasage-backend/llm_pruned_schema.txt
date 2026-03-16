@@ -1,2 +1,1 @@
-regions
 store_region_map
