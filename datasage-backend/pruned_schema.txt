@@ -1,5 +1,1 @@
-customer_master_summary
-region_cluster_definitionv1
-regions
-store_region_map
-user_region_assignments
+user_memory

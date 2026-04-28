@@ -50,7 +50,7 @@ def embed_text_to_pgvector(text: str) -> str:
 # ============================
 
 def memory_retrieve_node(state: DataSageState) -> DataSageState:
-    # print('Memory Retrieve Node Entered')
+    print('Memory Retrieve Node Entered')
     user_id = state.get("user_id")
     chat_id = state.get("chat_id")
     user_query = state.get("user_query")
@@ -115,7 +115,7 @@ def memory_retrieve_node(state: DataSageState) -> DataSageState:
 # ============================
 
 def memory_store_node(state: DataSageState) -> DataSageState:
-    # print('Memory Store Node Entered')
+    print('Memory Store Node Entered')
     if state.get("memory_hit"):
         return state
 

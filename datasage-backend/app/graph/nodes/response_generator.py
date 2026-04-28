@@ -7,6 +7,7 @@ settings = get_settings()
 
 
 def response_generator_node(state: DataSageState) -> DataSageState:
+    print("Res Node Entered")
     """
     Executes the generated SQL query and returns:
     - Formatted response (if successful)

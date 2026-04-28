@@ -22,6 +22,7 @@ DEFAULT_INTENT: IntentResult = {
 
 @observe()
 def intent_extractor_node(state: DataSageState) -> DataSageState:
+    print("Intent Node")
     if state is None:
         state = {}
 

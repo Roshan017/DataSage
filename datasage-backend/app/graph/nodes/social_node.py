@@ -28,6 +28,7 @@ STATIC_REPLIES = {
 @observe
 
 def social_node(state: DataSageState) -> DataSageState:
+    print("Social Node Entered")
 
     user_query = state.get("user_query", "").strip()
  

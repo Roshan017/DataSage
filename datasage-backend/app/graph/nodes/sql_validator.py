@@ -15,6 +15,7 @@ FORBIDDEN_STATEMENTS = (
 
 
 def sql_validator(state: DataSageState) -> DataSageState:
+    print("Validator Node called")
     errors: List[str] = []
 
     sql = state.get("sql_query")

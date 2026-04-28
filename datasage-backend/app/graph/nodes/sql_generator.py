@@ -91,7 +91,10 @@ COMBINED_TABLES:
 
 @observe()
 def sql_generator_node(state: DataSageState) -> DataSageState:
+    print("SQL Node Entered")
+
     intent = state.get("intent")
+
 
     pruned_schema = state.get('pruned_schema')
     pruned_schema = pruned_schema.tables

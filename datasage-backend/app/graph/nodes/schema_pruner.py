@@ -20,7 +20,7 @@ def schema_pruner_node(state: DataSageState) -> DataSageState:
     intent = state.get("intent")
     user_question = state.get("user_query")
 
-    # print("Schema Pruner Called")
+    print("Schema Pruner Called")
 
     
     pruned_schema = initial_prune(raw_schema, intent)
